@@ -1,0 +1,36 @@
+PODS:
+  - A (0.0.2)
+  - A_Extension (0.0.1):
+    - CTMediator (~> 44)
+  - B (0.0.2):
+    - A_Extension (~> 0.0.1)
+    - CTMediator (~> 44)
+  - B_Extension (0.0.1):
+    - CTMediator (~> 44)
+  - CTMediator (44)
+
+DEPENDENCIES:
+  - A (~> 0.0.2)
+  - A_Extension
+  - B
+  - B_Extension
+
+SPEC REPOS:
+  https://github.com/Clare320/iOSPrivatePods.git:
+    - A
+    - A_Extension
+    - B
+    - B_Extension
+  https://github.com/CocoaPods/Specs.git:
+    - CTMediator
+
+SPEC CHECKSUMS:
+  A: c4f235b1d433c190475df53f9523eed8a5c30a6d
+  A_Extension: fd9adc0dcb1c9814e3d59987515ca307d9d8c9d0
+  B: 866f2d67418385604ab770d83db483bd9308232f
+  B_Extension: 0da7e445bed843f68b8edb5cb9bd3a9bbfba3c52
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
+
+PODFILE CHECKSUM: ad5ee4d2d9c99bf06ed2ddf61516c1b3944737e3
+
+COCOAPODS: 1.9.1
